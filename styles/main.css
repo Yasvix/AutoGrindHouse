@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto';
+    
+}
+
+body {
+    background-color: #0e1111;
+    padding-bottom: 2000px;
+}
+
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/RPG_40_ultra_detailed_black_supercar_for_website_background_he_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hamburger, .hamburgerClose {
+    display: none;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4.5rem;
+    
+}
+
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 3rem;
+
+}
+
+
+
+.navbar ul li {
+    margin-right: 3rem;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    color: #db000d;
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+    .hamburger, .hamburgerClose {
+        display: block;
+
+    }
+    
+
+    .hero {
+        width: 100%;
+        height: 100vh;
+        background: url(../img/RPG_40_ultra_detailed_black_supercar_for_website_background_he_1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+
+    .navbar {
+        
+        position: absolute;
+        display: none;
+        background-color: #0e1111;
+        height: 100vh;
+        width: 300px;
+        align-items: flex-start;
+        right: 0;
+
+        transition: all 0.5s ease;
+    }
+
+
+
+
+    .navbar ul {
+        margin-right: 0;
+        height: auto;
+        
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+
+    .navbar ul li {
+        display: flex;
+        height: auto;
+        margin: 1.5rem 0;
+        margin-left: 1.5rem;
+
+        
+    }
+    
+
+    .hamburger {
+        padding-top: 1.5rem;
+        margin-right: 1.5rem;
+        display: flex;
+        width: auto;
+        justify-content: flex-end;
+        
+
+    }
+
+
+    
+
+
+
+}
