@@ -1,6 +1,6 @@
 'strict mode';
 
-const btnClose = document.querySelector('.hamburgerClose');
+const btnClose = document.querySelector('.sideBarClose');
 const btnOpen = document.querySelector('.sideBarOpen');
 const navbar = document.querySelector('.navbar');
 

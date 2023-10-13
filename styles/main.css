@@ -23,7 +23,7 @@ body {
     
 }
 
-.hamburger, .hamburgerClose {
+.hamburger, .sideBarClose {
     display: none;
 }
 
@@ -52,6 +52,8 @@ body {
 
 .navbar ul li {
     margin-right: 3rem;
+
+    transition: 0.5s;
 }
 
 .navbar ul li:last-child {
@@ -60,6 +62,20 @@ body {
 
 .navbar ul li a {
     color: #db000d;
+    text-decoration: none;
+    
+    letter-spacing: 1.5px;
+
+    
+    
+}
+
+.navbar ul li a:hover {
+    color: white;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.1);
     
 }
 
@@ -76,11 +92,11 @@ body {
     }
 
 
-    .hamburger, .hamburgerClose {
-        display: block;
+    .hamburger, .sideBarClose {
+        display: flex;
 
     }
-    
+
 
     .hero {
         width: 100%;
@@ -139,7 +155,66 @@ body {
     }
 
 
+    .textContainer {
+        margin-top: 1.5rem;
+        display: grid;
+        grid-template-columns: 3rem 1fr 3rem;
+        grid-template-rows: 15rem 15rem 15rem;
+        
+        
+    }
+
+
+
+    .headerTitle {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .headerTitle h1 span, h4 span {
+        color: #db000d;
+        /* font-family: 'Archivo Black'; */
+    }
+
+    .headerTitle h1 {
+        font-size: 48px;
+        color: white;
+        font-family: 'Archivo Black';
+    }
+
+    .headerTitle h1 span {
+        font-size: 65px;
+    }
+
+    .headerTitle h4 {
+        font-size: 24px;
+        color: #d3d3d3;
+        font-family: 'Archivo Black';
+        
+    }
     
+    .headerButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+    .headerBtn {
+        width: 40%;
+        height: 3rem;
+        background-color: #0e1111;
+        border: none;
+        color: #db000d;
+        font-family: 'Archivo Black';
+        letter-spacing: 1.5px;
+        border-radius: 10px;
+    }
 
 
 
