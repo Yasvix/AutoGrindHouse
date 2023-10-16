@@ -86,7 +86,7 @@ body {
 
 
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
     body {
         overflow-x: hidden;
     }
@@ -158,7 +158,7 @@ body {
     .textContainer {
         margin-top: 1.5rem;
         display: grid;
-        grid-template-columns: 3rem 1fr 3rem;
+        
         grid-template-rows: 15rem 15rem 15rem;
         
         
@@ -167,7 +167,7 @@ body {
 
 
     .headerTitle {
-        grid-column: 2 / 3;
+        
         grid-row: 1 / 2;
         display: flex;
         align-items: center;
@@ -177,21 +177,21 @@ body {
 
     .headerTitle h1 span, h4 span {
         color: #db000d;
-        /* font-family: 'Archivo Black'; */
+        
     }
 
     .headerTitle h1 {
-        font-size: 48px;
+        font-size: 45px;
         color: white;
         font-family: 'Archivo Black';
     }
 
     .headerTitle h1 span {
-        font-size: 65px;
+        font-size: 52px;
     }
 
     .headerTitle h4 {
-        font-size: 24px;
+        font-size: 20px;
         color: #d3d3d3;
         font-family: 'Archivo Black';
         
@@ -201,7 +201,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        grid-column: 2 / 3;
+        
         grid-row: 3 / 4;
     }
 
@@ -217,5 +217,62 @@ body {
     }
 
 
+    .statisticsSection {
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .statisticsSection h3 {
+        margin-top: 5rem;
+        padding-left: 1.5rem;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .statisticsSection h3 span {
+        color: #db000d;
+        font-size: 20px;
+    }
+
+    .statisticsContainer {
+        margin-top: 2rem;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .statistics {
+        width: 45%;
+        height: 15rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+    .statisticsNum {
+
+        border-left: 5px solid #db000d;
+        margin-bottom: 1.5rem;
+    }
+
+    .statisticsNum h2 {
+        padding-left: 20px;
+        color: white;
+        font-size: 58px;
+    }
+
+    .statistics p {
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+    }
 
 }
