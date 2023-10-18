@@ -275,4 +275,68 @@ body {
         letter-spacing: 1.2px;
     }
 
+    .aboutUsSection {
+        width: 100%;
+        height: 100vh;
+        /* background-color: darkgray; */
+    }
+
+    .aboutUsSection h2 {
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+        font-size: 32px;
+        margin-bottom: 2rem;
+        color: white;
+        
+    }
+
+    .aboutUsSection h2, .aboutUsSection h2 span {
+        font-family: 'Archivo Black';
+    }
+
+    .aboutUsSection h2 span {
+        color: #db000d;
+    }
+
+    .aboutUContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aboutUsQuote {
+        border-bottom: 1px solid #db000d;
+        padding: 1rem 1rem;
+        color: #db000d;
+        letter-spacing: 1.1px;
+        background-color: #0e1111;
+        margin-bottom: 3.5rem;
+    }
+
+    .aboutUsImg {
+        width: 60%;
+        height: 50vh;
+        background-color: darkslategray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+
+    }
+
+    .aboutUsImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .aboutUText {
+        width: 80%;
+        color: #d3d3d3;
+        letter-spacing: 1.2px;
+        text-indent: 15px;
+        text-wrap: wrap;
+    }
+
 }
