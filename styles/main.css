@@ -277,8 +277,8 @@ body {
 
     .aboutUsSection {
         width: 100%;
-        height: 100vh;
-        /* background-color: darkgray; */
+        height: auto;
+        
     }
 
     .aboutUsSection h2 {
@@ -317,7 +317,6 @@ body {
     .aboutUsImg {
         width: 60%;
         height: 50vh;
-        background-color: darkslategray;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -329,6 +328,7 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 10px;
     }
 
     .aboutUText {
@@ -339,4 +339,74 @@ body {
         text-wrap: wrap;
     }
 
+    .imgSliderSection {
+        width: 100%;
+        height: 100vh;
+        
+        margin-top: 3.5rem;
+
+        
+    }
+
+    .imgSliderSection h2 {
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+        font-size: 32px;
+        margin-bottom: 2rem;
+        color: #db000d;
+        font-family: 'Archivo Black';
+        margin-bottom: 3rem;
+    }
+
+    .imgSliderContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+      
+    .imgSliderCard {
+        width: 65%;
+        height: 70vh;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        
+        
+    }
+
+    .imgSliderCard img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+       
+        border-radius: 10px;
+    }
+
+
+    .imgSliderCardText {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        width: 65%;
+        height: 10rem;
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .imgSliderCardText h3 {
+        color: #db000d;
+        padding-bottom: 15px;
+        padding-top: 10px;
+        font-family: 'Archivo Black';
+    }
+
+    .imgSliderCardText p {
+        color: #d3d3d3;
+        flex-wrap: wrap;
+        text-decoration: none;
+        height: 100%;
+        overflow-wrap: break-word;
+    }
 }
