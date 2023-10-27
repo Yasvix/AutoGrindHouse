@@ -16,7 +16,6 @@ btnOpen.addEventListener('click', function() {
 });
 
 
-
 ///////////////////////////////////////
 // Slider
 
