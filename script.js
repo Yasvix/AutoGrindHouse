@@ -15,14 +15,15 @@ btnOpen.addEventListener('click', function() {
     navbar.style.display = "flex";
 });
 
+const btnLeft = document.querySelector('.slider__btn--left');
+const btnRight = document.querySelector('.slider__btn--right');
 
 ///////////////////////////////////////
 // Slider
 
 const slider = function() {
     const slides = document.querySelectorAll('.slide');
-    const btnLeft = document.querySelector('.slider__btn--left');
-    const btnRight = document.querySelector('.slider__btn--right');
+
 
     let curSlide = 0;
     const maxSlide = slides.length;
@@ -73,3 +74,6 @@ const slider = function() {
 
 };
 slider();
+
+
+
