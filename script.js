@@ -35,7 +35,7 @@ const slider = function() {
 
     const goToSlide = function(slide) {
         slides.forEach(
-            (s, i) => (s.style.transform = `translateX(${125 * (i - slide)}%)`)
+            (s, i) => (s.style.transform = `translateX(${300 * (i - slide)}%)`)
         );
     };
 
