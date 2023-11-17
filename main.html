@@ -1,105 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+
     <script defer src="script.js"></script>
     <title>AutoGrindHouse</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="hero">
+      <div class="hero">
+        <video autoplay muted loop id="heroVideo">
+          <source src="img/video1.mp4" type="video/mp4" />
+        </video>
+        <navbar class="navbar">
+          <ul>
+            <li>
+              <img
+                src="icons/iconmonstr-x-mark-lined-24.png"
+                class="sideBarClose"
+              />
+            </li>
+            <li><a href="#">Nasze usługi</a></li>
+            <li><a href="#">Galeria</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Opinie</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </navbar>
 
-            <navbar class="navbar">
-
-
-
-
-                <ul>
-
-                    <li><img src="icons/iconmonstr-x-mark-lined-24.png" class="sideBarClose"></li>
-                    <li><a href="#">Nasze usługi</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">O nas</a></li>
-                    <li><a href="#">Opinie</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    
-
-                </ul>
-
-
-            </navbar>
-
-            <div class="hamburger">
-                <img src="icons/iconmonstr-menu-right-lined-24.png" class="sideBarOpen">
-            </div>
-
-
-
-            <div class="textContainer">
-                
-                <div class="headerTitle">
-                    <h1>Auto<span>Grind</span>House</h1>
-                    <h4>Twoje auto, <span>nasza</span> profesja</h4>
-                </div>
-
-                <div class="headerButton">
-                    <button class="headerBtn">Ustal spotkanie</button>
-                </div>
-
-            </div>
-
+        <div class="hamburger">
+          <img
+            src="icons/iconmonstr-menu-right-lined-24.png"
+            class="sideBarOpen"
+          />
         </div>
+
+        <div class="textContainer">
+          <div class="headerTitle">
+            <h1>Auto<span>Grind</span>House</h1>
+            <h4>Twoje auto, <span>nasza</span> profesja</h4>
+          </div>
+
+          <div class="headerButton">
+            <button class="headerBtn">Ustal spotkanie</button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <section class="statisticsSection">
-        <h3>Nasze <span>statystyki</span></h3>
+      <h3>Nasze <span>statystyki</span></h3>
 
-        <div class="statisticsContainer">
+      <div class="statisticsContainer">
+        <div class="statistics">
+          <div class="statisticsNum">
+            <h2>5+</h2>
+          </div>
 
-            <div class="statistics">
-                <div class="statisticsNum">
-                    <h2>5+</h2>
-                </div>
-                
-                <p>Lata doświadczenia</p>
-            </div>
-
-            <div class="statistics">
-                <div class="statisticsNum">
-                    <h2>1k+</h2>
-                </div>
-                <p>Zadowoleni klienci</p>
-            </div>
-            
+          <p>Lata doświadczenia</p>
         </div>
+
+        <div class="statistics">
+          <div class="statisticsNum">
+            <h2>1k+</h2>
+          </div>
+          <p>Zadowoleni klienci</p>
+        </div>
+      </div>
     </section>
 
     <section class="aboutUsSection">
-        <h2>O <span>nas</span></h2>
+      <h2>O <span>nas</span></h2>
 
-        <div class="sectionContainer">
+      <div class="sectionContainer">
+        <div class="aboutUContainer">
+          <p class="aboutUsQuote">"Twoje auto zasługuje na najlepszy blask"</p>
 
-            <div class="aboutUContainer">
+          <div class="aboutUsImg">
+            <img src="img/aboutUsImg.webp" alt="" />
+          </div>
 
-                
-                <p class="aboutUsQuote">
-                    "Twoje auto zasługuje na najlepszy blask"
-                </p>
-                
-    
-    
-                <div class="aboutUsImg">
-    
-                    <img src="img/aboutUsImg.webp" alt="">
-                </div>
-    
-                <!-- <div class="div2">
+          <!-- <div class="div2">
                     <p class="aboutUsText">
                         Jesteśmy firmą specjalizującą się w auto detailingu. 
                         Nasza pasja i zaangażowanie w pielęgnację pojazdów są widoczne w każdym detalu. 
@@ -107,443 +96,405 @@
                         a Ty cieszysz się nieskazitelnym wyglądem. Zaufaj profesjonalizmowi i doświadczeniu naszego zespołu, by poczuć różnicę.
                     </p>
                 </div> -->
-                <p class="aboutUsText">
-                    Jesteśmy firmą specjalizującą się w auto detailingu. 
-                    Nasza pasja i zaangażowanie w pielęgnację pojazdów są widoczne w każdym detalu. 
-                    Dzięki naszym usługom, Twój samochód odzyskuje blask i doskonały stan, 
-                    a Ty cieszysz się nieskazitelnym wyglądem. Zaufaj profesjonalizmowi i doświadczeniu naszego zespołu, by poczuć różnicę.
-                </p>
-    
-            </div>
+          <p class="aboutUsText">
+            Jesteśmy firmą specjalizującą się w auto detailingu. Nasza pasja i
+            zaangażowanie w pielęgnację pojazdów są widoczne w każdym detalu.
+            Dzięki naszym usługom, Twój samochód odzyskuje blask i doskonały
+            stan, a Ty cieszysz się nieskazitelnym wyglądem. Zaufaj
+            profesjonalizmowi i doświadczeniu naszego zespołu, by poczuć
+            różnicę.
+          </p>
         </div>
-
-
-
+      </div>
     </section>
 
     <section class="sliderSection">
-        <h2>Galeria</h2>
+      <h2>Galeria</h2>
 
-
-
-        <div class="slider">
-
-            <div class="sliderBtnContainer">
-                <div class="slider__btn">
-                    <img src="icons/iconmonstr-caret-left-circle-filled-24.png" alt="#" class="slider__btn--left">
-                </div>
-            </div>
-    
-            <div class="slide">
-                <img src="img/car1.webp" alt="#">
-
-                <div class="slideText">
-                    <h3>FERRARI</h3>
-                    <blockquote>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ab aut laborum vitae asperiores at 
-                        voluptate accusantium porro perferendis libero dolore in commodi
-                        hic assumenda soluta iure impedit, nulla explicabo quos? 
-                    </blockquote>
-                </div>
-                
-            </div>
-
-            
-            <div class="slide">
-                <img src="img/car2.webp" alt="#">
-
-                <div class="slideText">
-                    <h3>LAMBORGHINI</h3>
-                    <blockquote>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ab aut laborum vitae asperiores at 
-                        voluptate accusantium porro perferendis libero dolore in commodi
-                        hic assumenda soluta iure impedit, nulla explicabo quos? 
-                    </blockquote>
-                </div>
-                
-            </div>
-
-            <div class="slide">
-                <img src="img/car3.webp" alt="#">
-
-                <div class="slideText">
-                    <h3>MCLAREN</h3>
-                    <blockquote>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ab aut laborum vitae asperiores at 
-                        voluptate accusantium porro perferendis libero dolore in commodi
-                        hic assumenda soluta iure impedit, nulla explicabo quos? 
-                    </blockquote>
-                </div>
-                
-            </div>
-
-            <div class="slide">
-                <img src="img/car4.webp" alt="#">
-
-                <div class="slideText">
-                    <h3>BUGATTI</h3>
-                    <blockquote>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ab aut laborum vitae asperiores at 
-                        voluptate accusantium porro perferendis libero dolore in commodi
-                        hic assumenda soluta iure impedit, nulla explicabo quos? 
-                    </blockquote>
-                </div>
-                
-            </div>
-
-            <div class="slide">
-                <img src="img/car5.webp" alt="#">
-
-                <div class="slideText">
-                    <h3>PORSHE</h3>
-                    <blockquote>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ab aut laborum vitae asperiores at 
-                        voluptate accusantium porro perferendis libero dolore in commodi
-                        hic assumenda soluta iure impedit, nulla explicabo quos? 
-                    </blockquote>
-                </div>
-                
-            </div>
-
-            <div class="slide">
-                <img src="img/car6.webp" alt="#">
-
-                <div class="slideText">
-                    <h3>KOENIGSEGG</h3>
-                    <blockquote>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Ab aut laborum vitae asperiores at 
-                        voluptate accusantium porro perferendis libero dolore in commodi
-                        hic assumenda soluta iure impedit, nulla explicabo quos? 
-                    </blockquote>
-                </div>
-                
-            </div>
-
-            <div class="sliderBtnContainer">
-                <div class="slider__btn">
-                    <img src="icons/iconmonstr-caret-right-circle-filled-24.png" alt="#" class="slider__btn--right">
-                </div>
-            </div>
-
+      <div id="auto-image-gallery" class="slider">
+        <div class="sliderBtnContainer">
+          <div class="slider__btn">
+            <img
+              src="icons/iconmonstr-caret-left-circle-filled-24.png"
+              alt="#"
+              class="slider__btn--left"
+            />
+          </div>
         </div>
+
+        <div class="slide">
+          <img src="img/car1.webp" alt="#" />
+
+          <div class="slideText">
+            <h3>FERRARI</h3>
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aut
+              laborum vitae asperiores at voluptate accusantium porro
+              perferendis libero dolore in commodi hic assumenda soluta iure
+              impedit, nulla explicabo quos?
+            </blockquote>
+            <div class="gradient"></div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="img/car2.webp" alt="#" />
+
+          <div class="slideText">
+            <h3>LAMBORGHINI</h3>
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aut
+              laborum vitae asperiores at voluptate accusantium porro
+              perferendis libero dolore in commodi hic assumenda soluta iure
+              impedit, nulla explicabo quos?
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="img/car3.webp" alt="#" />
+
+          <div class="slideText">
+            <h3>MCLAREN</h3>
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aut
+              laborum vitae asperiores at voluptate accusantium porro
+              perferendis libero dolore in commodi hic assumenda soluta iure
+              impedit, nulla explicabo quos?
+            </blockquote>
+            <div class="gradient"></div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="img/car4.webp" alt="#" />
+
+          <div class="slideText">
+            <h3>BUGATTI</h3>
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aut
+              laborum vitae asperiores at voluptate accusantium porro
+              perferendis libero dolore in commodi hic assumenda soluta iure
+              impedit, nulla explicabo quos?
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="img/car5.webp" alt="#" />
+
+          <div class="slideText">
+            <h3>PORSHE</h3>
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aut
+              laborum vitae asperiores at voluptate accusantium porro
+              perferendis libero dolore in commodi hic assumenda soluta iure
+              impedit, nulla explicabo quos?
+            </blockquote>
+            <div class="gradient"></div>
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="img/car6.webp" alt="#" />
+
+          <div class="slideText">
+            <h3>KOENIGSEGG</h3>
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aut
+              laborum vitae asperiores at voluptate accusantium porro
+              perferendis libero dolore in commodi hic assumenda soluta iure
+              impedit, nulla explicabo quos?
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="sliderBtnContainer">
+          <div class="slider__btn">
+            <img
+              src="icons/iconmonstr-caret-right-circle-filled-24.png"
+              alt="#"
+              class="slider__btn--right"
+            />
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="servicesSection">
-        <h2><span>Nasze</span> usługi</h2>
+      <h2><span>Nasze</span> usługi</h2>
 
-        <div class="servicesContent">
-            <div class="servicesImg">
-                <img src="img/DreamShaper_v7_ultra_detailed_car_ultra_shine_3 (1).jpg" alt="">
-            </div>
-
-            <div class="servicesPrice">
-                <h3><span>850</span>zł / Samochód</h3>
-                <h3><span>1200</span>zł / Ciężarówka/Suv</h3>
-            </div>
-            <div class="servicesTextContainer">
-
-                <div class="servicesText">
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Czyszczenie i renowacja tapicerki</p>
-                    </div>
-
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Polerowanie lakieru</p>
-                    </div>
-
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Oklejanie samochodu</p>
-                    </div>
-
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Smart Repair</p>
-                    </div>
-
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Zewnętrzne mycie</p>
-                    </div>
-
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Mycie wnętrza</p>
-                    </div>
-
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Renowacja felg</p>
-                    </div>
-
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Renowacja chromów</p>
-                    </div>
-
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Ozonowanie</p>
-                    </div>
-
-                    <div class="servicesItem">
-                        <div class="checkIcon"></div>
-                        <p>Odgrzybianie</p>
-                    </div>
-
-                </div>
-            </div>
-
+      <div class="servicesContent">
+        <div class="servicesImg">
+          <img
+            src="img/DreamShaper_v7_ultra_detailed_car_ultra_shine_3 (1).jpg"
+            alt=""
+          />
         </div>
 
+        <div class="servicesPrice">
+          <h3><span>850</span>zł / Samochód</h3>
+          <h3><span>1200</span>zł / Ciężarówka/Suv</h3>
+        </div>
+        <div class="servicesTextContainer">
+          <div class="servicesText">
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Czyszczenie i renowacja tapicerki</p>
+            </div>
+
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Polerowanie lakieru</p>
+            </div>
+
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Oklejanie samochodu</p>
+            </div>
+
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Smart Repair</p>
+            </div>
+
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Zewnętrzne mycie</p>
+            </div>
+
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Mycie wnętrza</p>
+            </div>
+
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Renowacja felg</p>
+            </div>
+
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Renowacja chromów</p>
+            </div>
+
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Ozonowanie</p>
+            </div>
+
+            <div class="servicesItem">
+              <div class="checkIcon"></div>
+              <p>Odgrzybianie</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="opinionsSection">
-        <h2><span>Opinie</span> klientów</h2>
+      <h2><span>Opinie</span> klientów</h2>
 
-        <div class="opinions">
-
-            <div class="sliderBtnContainer">
-                <div class="slider__btn">
-                    <img src="icons/iconmonstr-caret-left-circle-filled-24.png" alt="#" class="slider__btn--left">
-                </div>
-            </div>
-
-            <div class="opinionsSlide">
-
-                <div class="opinionsSlideUser">
-
-                    <div class="opinionsImg">
-
-                        <img src="img/man.png" alt="">
-                    </div>
-                    
-                    <h4>Adam Nowak</h4>
-                </div>
-
-                <div class="opinionsText">
-
-                    <blockquote>
-
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Veritatis laboriosam dolorem culpa quibusdam? 
-                        Odio repellendus atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque ipsa totam! 
-                        Vitae cumque dolorum est!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dicta, 
-                        consequatur minima a odio mollitia, maxime similique iste incidunt perferendis voluptatum 
-                        quis alias totam excepturi itaque, modi numquam veritatis ipsa!
-                        
-                    </blockquote>
-                    <div class="opinionsRating">
-                        <img src="icons/rating.png" alt="">
-                    </div>
-                </div>
-
-            </div>
-
-
-            <!-- <div class="opinionsSlide">
-
-                <div class="opinionsSlideUser">
-
-                    <div class="opinionsImg">
-
-                        <img src="img/man.png" alt="">
-                    </div>
-                    
-                    <h4>Adam Nowak</h4>
-                </div>
-
-                <div class="opinionsText">
-
-                    <blockquote>
-
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Veritatis laboriosam dolorem culpa quibusdam? 
-                        Odio repellendus atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque ipsa totam! 
-                        Vitae cumque dolorum est!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dicta, 
-                        consequatur minima a odio mollitia, maxime similique iste incidunt perferendis voluptatum 
-                        quis alias totam excepturi itaque, modi numquam veritatis ipsa!
-                        
-                    </blockquote>
-                    <div class="opinionsRating">
-                        <img src="icons/rating.png" alt="">
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="opinionsSlide">
-
-                <div class="opinionsSlideUser">
-
-                    <div class="opinionsImg">
-
-                        <img src="img/man.png" alt="">
-                    </div>
-                    
-                    <h4>Adam Nowak</h4>
-                </div>
-
-                <div class="opinionsText">
-
-                    <blockquote>
-
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Veritatis laboriosam dolorem culpa quibusdam? 
-                        Odio repellendus atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque ipsa totam! 
-                        Vitae cumque dolorum est!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dicta, 
-                        consequatur minima a odio mollitia, maxime similique iste incidunt perferendis voluptatum 
-                        quis alias totam excepturi itaque, modi numquam veritatis ipsa!
-                        
-                    </blockquote>
-                    <div class="opinionsRating">
-                        <img src="icons/rating.png" alt="">
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="opinionsSlide">
-
-                <div class="opinionsSlideUser">
-
-                    <div class="opinionsImg">
-
-                        <img src="img/man.png" alt="">
-                    </div>
-                    
-                    <h4>Adam Nowak</h4>
-                </div>
-
-                <div class="opinionsText">
-
-                    <blockquote>
-
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Veritatis laboriosam dolorem culpa quibusdam? 
-                        Odio repellendus atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque ipsa totam! 
-                        Vitae cumque dolorum est!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dicta, 
-                        consequatur minima a odio mollitia, maxime similique iste incidunt perferendis voluptatum 
-                        quis alias totam excepturi itaque, modi numquam veritatis ipsa!
-                        
-                    </blockquote>
-                    <div class="opinionsRating">
-                        <img src="icons/rating.png" alt="">
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="opinionsSlide">
-
-                <div class="opinionsSlideUser">
-
-                    <div class="opinionsImg">
-
-                        <img src="img/man.png" alt="">
-                    </div>
-                    
-                    <h4>Adam Nowak</h4>
-                </div>
-
-                <div class="opinionsText">
-
-                    <blockquote>
-
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Veritatis laboriosam dolorem culpa quibusdam? 
-                        Odio repellendus atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque ipsa totam! 
-                        Vitae cumque dolorum est!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dicta, 
-                        consequatur minima a odio mollitia, maxime similique iste incidunt perferendis voluptatum 
-                        quis alias totam excepturi itaque, modi numquam veritatis ipsa!
-                        
-                    </blockquote>
-                    <div class="opinionsRating">
-                        <img src="icons/rating.png" alt="">
-                    </div>
-                </div>
-
-            </div> -->
-
-
-            <div class="sliderBtnContainer">
-                <div class="slider__btn">
-                    <img src="icons/iconmonstr-caret-right-circle-filled-24.png" alt="#" class="slider__btn--right">
-                </div>
-            </div>
+      <div id="opinions-gallery" class="opinions">
+        <div class="sliderBtnContainer">
+          <div class="slider__btn">
+            <img
+              src="icons/iconmonstr-caret-left-circle-filled-24.png"
+              alt="#"
+              class="slider__btn--left"
+            />
+          </div>
         </div>
 
+        <div class="opinionsSlide slide">
+          <div class="opinionsSlideUser">
+            <div class="opinionsImg">
+              <img src="img/man.png" alt="" />
+            </div>
+
+            <h4>Adam Nowak</h4>
+          </div>
+
+          <div class="opinionsText">
+            <blockquote>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Veritatis laboriosam dolorem culpa quibusdam? Odio repellendus
+              atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque
+              ipsa totam! Vitae cumque dolorum est! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Iure dicta, consequatur minima a
+              odio mollitia, maxime similique iste incidunt perferendis
+              voluptatum quis alias totam excepturi itaque, modi numquam
+              veritatis ipsa!
+            </blockquote>
+            <div class="opinionsRating">
+              <img src="icons/rating.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="opinionsSlide slide">
+          <div class="opinionsSlideUser">
+            <div class="opinionsImg">
+              <img src="img/man.png" alt="" />
+            </div>
+
+            <h4>Adam Nowak</h4>
+          </div>
+
+          <div class="opinionsText">
+            <blockquote>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Veritatis laboriosam dolorem culpa quibusdam? Odio repellendus
+              atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque
+              ipsa totam! Vitae cumque dolorum est! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Iure dicta, consequatur minima a
+              odio mollitia, maxime similique iste incidunt perferendis
+              voluptatum quis alias totam excepturi itaque, modi numquam
+              veritatis ipsa!
+            </blockquote>
+            <div class="opinionsRating">
+              <img src="icons/rating.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="opinionsSlide slide">
+          <div class="opinionsSlideUser">
+            <div class="opinionsImg">
+              <img src="img/man.png" alt="" />
+            </div>
+
+            <h4>Adam Nowak</h4>
+          </div>
+
+          <div class="opinionsText">
+            <blockquote>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Veritatis laboriosam dolorem culpa quibusdam? Odio repellendus
+              atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque
+              ipsa totam! Vitae cumque dolorum est! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Iure dicta, consequatur minima a
+              odio mollitia, maxime similique iste incidunt perferendis
+              voluptatum quis alias totam excepturi itaque, modi numquam
+              veritatis ipsa!
+            </blockquote>
+            <div class="opinionsRating">
+              <img src="icons/rating.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="opinionsSlide slide">
+          <div class="opinionsSlideUser">
+            <div class="opinionsImg">
+              <img src="img/man.png" alt="" />
+            </div>
+
+            <h4>Adam Nowak</h4>
+          </div>
+
+          <div class="opinionsText">
+            <blockquote>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Veritatis laboriosam dolorem culpa quibusdam? Odio repellendus
+              atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque
+              ipsa totam! Vitae cumque dolorum est! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Iure dicta, consequatur minima a
+              odio mollitia, maxime similique iste incidunt perferendis
+              voluptatum quis alias totam excepturi itaque, modi numquam
+              veritatis ipsa!
+            </blockquote>
+            <div class="opinionsRating">
+              <img src="icons/rating.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="opinionsSlide slide">
+          <div class="opinionsSlideUser">
+            <div class="opinionsImg">
+              <img src="img/man.png" alt="" />
+            </div>
+
+            <h4>Adam Nowak</h4>
+          </div>
+
+          <div class="opinionsText">
+            <blockquote>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Veritatis laboriosam dolorem culpa quibusdam? Odio repellendus
+              atque dolor, voluptatibus ut facilis accusamus nihil, omnis itaque
+              ipsa totam! Vitae cumque dolorum est! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Iure dicta, consequatur minima a
+              odio mollitia, maxime similique iste incidunt perferendis
+              voluptatum quis alias totam excepturi itaque, modi numquam
+              veritatis ipsa!
+            </blockquote>
+            <div class="opinionsRating">
+              <img src="icons/rating.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="sliderBtnContainer">
+          <div class="slider__btn">
+            <img
+              src="icons/iconmonstr-caret-right-circle-filled-24.png"
+              alt="#"
+              class="slider__btn--right"
+            />
+          </div>
+        </div>
+      </div>
     </section>
-    
 
     <section class="contactSection">
-        <img src="img/contactUsImg.webp" class="contactBackground">
-        <h2>Kontakt</h2>
+      <img src="img/contactUsImg.webp" class="contactBackground" />
+      <h2>Kontakt</h2>
 
-        <div class="contactTitle">
-            <h1>Jesteś gotowy na <span>drugą</span> młodość auta?</h1>
-            <button class="contactBtn">Ustal spotkanie</button>
-        </div>
+      <div class="contactTitle">
+        <h1>Jesteś gotowy na <span>drugą</span> młodość auta?</h1>
+        <button class="contactBtn">Ustal spotkanie</button>
+      </div>
 
-        <div class="contactContainer">
+      <div class="contactContainer">
+        <div class="contact">
+          <h3><span>Skontaktuj</span> się z nami</h3>
 
-            <div class="contact">
-                <h3><span>Skontaktuj</span> się z nami</h3>
-
-                <form action="#">
-
-                    <div class="contactInput">
-                        <input type="text" placeholder="Imie">
-                    </div>
-
-                    <div class="contactInput">
-                        <input type="email" placeholder="Email">
-                    </div>
-
-                    <div class="contactInput contactInputText">
-                        <textarea placeholder="Napisz do nas!"></textarea>
-                    </div>
-
-                    <button class="contactBtn">Wyślij</button>
-                </form>
+          <form action="#">
+            <div class="contactInput">
+              <input type="text" placeholder="Imie" />
             </div>
 
-            <div class="socialsContainer">
-
-                <div class="socials">
-                    <img src="icons/facebook.png">
-                </div>
-
-                <div class="socials">
-                    <img src="icons/instagram.png" alt="">
-                </div>
-                <div class="socials">
-                    <img src="icons/telegram.png" alt="">
-                </div>
-                <div class="socials">
-                    <img src="icons/twitter.png" alt="">
-                </div>
-
+            <div class="contactInput">
+              <input type="email" placeholder="Email" />
             </div>
-            <h5>+48 111 111 111</h5>
+
+            <div class="contactInput contactInputText">
+              <textarea placeholder="Napisz do nas!"></textarea>
+            </div>
+
+            <button class="contactBtn">Wyślij</button>
+          </form>
         </div>
 
+        <div class="socialsContainer">
+          <div class="socials">
+            <img src="icons/facebook.png" />
+          </div>
+
+          <div class="socials">
+            <img src="icons/instagram.png" alt="" />
+          </div>
+          <div class="socials">
+            <img src="icons/telegram.png" alt="" />
+          </div>
+          <div class="socials">
+            <img src="icons/twitter.png" alt="" />
+          </div>
+        </div>
+        <h5>+48 111 111 111</h5>
+      </div>
     </section>
-</body>
+  </body>
 </html>
