@@ -20,11 +20,18 @@ body {
 .hero {
     width: 100%;
     height: 100vh;
-    background: url(../img/RPG_40_ultra_detailed_black_supercar_for_website_background_he_1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    position: relative;
+    overflow: hidden;
+}
+
+#heroVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -99;
 }
 
 .hamburger, .sideBarClose {
@@ -805,11 +812,18 @@ body {
     .hero {
         width: 100%;
         height: 100vh;
-        background: url(../img/RPG_40_ultra_detailed_black_supercar_for_website_background_he_1.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
     
+    #heroVideo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -99;
     }
 
     .navbar {

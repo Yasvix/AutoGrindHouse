@@ -21,10 +21,9 @@ const btnRight = document.querySelector('.slider__btn--right');
 ///////////////////////////////////////
 // Slider
 
-const slider = function() {
-    const slides = document.querySelectorAll('.slide');
+const slider = function(gallerySelector) {
 
-
+    const slides = document.querySelectorAll(`${gallerySelector} .slide`);
     let curSlide = 0;
     const maxSlide = slides.length;
 
@@ -71,9 +70,13 @@ const slider = function() {
     btnLeft.addEventListener('click', prevSlide);
 
     
+    document.querySelector(`${gallerySelector} .slider__btn--right`).addEventListener('click', nextSlide);
+    document.querySelector(`${gallerySelector} .slider__btn--left`).addEventListener('click', prevSlide);
+    
 
 };
-slider();
+slider('#auto-image-gallery');
+slider('#opinions-gallery');
 
-
+console.log(slider('#opinions-gallery'));
 
